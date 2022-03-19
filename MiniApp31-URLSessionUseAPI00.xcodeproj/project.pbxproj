@@ -13,6 +13,7 @@
 		B945531427E5503700426B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B945531227E5503700426B50 /* Main.storyboard */; };
 		B945531627E5503800426B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B945531527E5503800426B50 /* Assets.xcassets */; };
 		B945531927E5503800426B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B945531727E5503800426B50 /* LaunchScreen.storyboard */; };
+		B945532327E555A400426B50 /* LoadApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B945532227E555A400426B50 /* LoadApiData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B945531527E5503800426B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B945531827E5503800426B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B945531A27E5503800426B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B945532227E555A400426B50 /* LoadApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadApiData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B945530C27E5503700426B50 /* AppDelegate.swift */,
+				B945532227E555A400426B50 /* LoadApiData.swift */,
 				B945530E27E5503700426B50 /* SceneDelegate.swift */,
 				B945531027E5503700426B50 /* ViewController.swift */,
 				B945531227E5503700426B50 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B945532327E555A400426B50 /* LoadApiData.swift in Sources */,
 				B945531127E5503700426B50 /* ViewController.swift in Sources */,
 				B945530D27E5503700426B50 /* AppDelegate.swift in Sources */,
 				B945530F27E5503700426B50 /* SceneDelegate.swift in Sources */,
